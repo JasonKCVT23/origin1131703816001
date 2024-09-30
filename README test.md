@@ -7,11 +7,11 @@
 
 - 一開始在使用 npm 管理安裝套件時，一定會對於這兩者很困惑：
 
-'''
+```
 $ npm install packagename –save;
 
 $ npm install packagename –save-dev
-'''
+```
 
 - 可以看到分別有 dependencies 與 devDependencies 兩個節點，分別有裝入不同的套件。
 - –save 與 –save-dev 的兩個安裝指令
@@ -35,9 +35,9 @@ $ npm install packagename –save-dev
 <img src="https://imgur.com/fvF1YuH" alt="start:node index.js 圖片無法顯示" title="start: node index.js">
 [week 3 JavaScript：認識 Module & NPM 套件庫](https://hackmd.io/@Heidi-Liu/note-js102-npm)
 
-'''
+```
 npm run 'key'
-'''
+```
 
 - 在終端機輸入 npm run start 即可透過 key 來運行該指令：
 
@@ -52,9 +52,9 @@ npm run 'key'
 
 - 在終端機中，可以透過以下指令來設定環境變數：
 
-'''
+```
 export PORT=8080
-'''
+```
 
 - 其中，PORT是環境變數的名稱，8080是你想要監聽的連接埠號碼。
 
@@ -69,7 +69,7 @@ export PORT=8080
 
 - CJS 是 CommonJS 的模塊系統，最初是為了在伺服器端使用的 Node.js 開發而設計的，但也被廣泛用於前端開發。CJS 使用 require 函數來導入模塊，並使用 module.exports 或 exports 對象來定義導出的內容，例如：
 
-'''
+```
 // 定義模塊
 // math.js
 exports.add = function(a, b) {
@@ -80,13 +80,13 @@ exports.add = function(a, b) {
 // main.js
 var math = require('./math.js');
 console.log(math.add(2, 3)); // 輸出: 5
-'''
+```
 
 ### ESM
 
 - ESM 是 ECMAScript 的模塊系統，從 ECMAScript 6（ES6）開始引入並成為 JavaScript 的一部分。ESM 使用 import 和 export 關鍵字來定義和導入模塊。例如：
 
-'''
+```
 // 定義模塊
 // math.js
 export function add(a, b) {
@@ -97,7 +97,7 @@ export function add(a, b) {
 // main.js
 import { add } from './math.js';
 console.log(add(2, 3)); // 輸出: 5
-'''
+```
 
 ### 兩者差異之處
 
@@ -153,14 +153,14 @@ console.log(add(2, 3)); // 輸出: 5
 
 ### 安裝
 
-'''
+```
 $ sudo apt-get install curl
-'''
+```
 
 ### 測試首頁 index.html
 - 準備一下檔案 index.html，內容如下
 
-'''
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -188,7 +188,7 @@ var server = http.createServer(function (req, res) {
 server.listen(3000, function () {
     console.log('Server for curl testing');
 });
-'''
+```
 
 - 重新啟動 server.js，並用瀏覽器開看看
 
@@ -197,16 +197,16 @@ server.listen(3000, function () {
 
 - 用 curl 試試看
 
-'''
+```
 $ curl http://localhost:3000
 <!DOCTYPE html><html> ...
-'''
+```
 
 ### 路由測試
 - 這裡的路由測試很簡單，如果你想要建立完整的路由或 REST endpoints，建議使用 express 或 hapi 這一類的框架來協助你。因為只是要測一下 curl，我就不裝 express 啦！
 - 兩個路由，一個是網站的根 '/'，另一個是 '/greeting'
 
-'''
+```
 var server = http.createServer(function (req, res) {
     if (req.url === '/') {
         fs.readFile('index.html', function (err, data) {
@@ -221,7 +221,7 @@ var server = http.createServer(function (req, res) {
         res.end('<h1>404 Not Found</h1>');
     }
 });
-'''
+```
 
 - 測試 http://localhost:3000/greeting，得到 Hello my friend!
 
@@ -230,34 +230,34 @@ var server = http.createServer(function (req, res) {
 
 - 用 curl
 
-'''
+```
 $ curl http://localhost:3000/greeting
 <h1>Hello my friend!</h1>
-'''
+```
 
 ### 常用參數
 
 - 發 request 到 http 或 ftp 伺服器
 
-'''
+```
 $ curl http://www.example.com:port
 $ curl ftp://www.example.com:port
-'''
+```
 
 - 如果要帳號密碼 (-u)
 
-'''
+```
 $ curl -u name:passwd http://xxx.xxx.xxx:port/path/to/endpoint
 $ curl -u name:passwd ftp://xxx.xxx.xxx:port/path/to/file
-'''
+```
 
 - 取回來的東西存成檔案 (-o)
 
-'''
+```
 $ curl -o filename http://xxx.xxx.xxx:port/path/to/endpoint
 以 server 端檔案名稱作為檔名儲存下來 (-O)
 $ curl -O http://xxx.xxx.xxx:port/path/to/filename
-'''
+```
 
 ---
 
@@ -279,11 +279,11 @@ $ curl -O http://xxx.xxx.xxx:port/path/to/filename
 
 - 舉個例子
 
-'''
+```
 "dependencies": {
  "@types/node": "^8.0.33",
 },
-'''
+```
 
 - 裡面的向上符號^是定義 向後(新)兼容依賴，指如果@types/node的版本過8.0.33，並在大版本號(8)以上相同，就允許下載最新版本的types/node庫包。
 
@@ -324,6 +324,13 @@ $ curl -O http://xxx.xxx.xxx:port/path/to/filename
 12. [simen「使用 curl 工具進行簡單的 http 測試」](https://blog.byparams.com/2016/10/curl-http.html)
 
 13. [Dylan's blog「Node.js module system (一) - module.exports 及 require 運作原理」](https://dylan237.github.io/nodejs-module-system.html)
+
+[「」]()
+
+[「」]()
+
+[「」]()
+
 
 
 
