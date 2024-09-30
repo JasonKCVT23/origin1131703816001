@@ -5,7 +5,7 @@
 1.dependencies : 使用在已經發布的環境下，換句話說，是指發布後仍然需要依賴使用的 plug-in。
 2.devDependencies : 使用在開發中的環境下，意思是指——只單純會在開發時應用到的 plug-in。
 
-- 一開始在使用 npm 管理安裝套件時，一定會對於這兩者很困惑：
+一開始在使用 npm 管理安裝套件時，一定會對於這兩者很困惑：
 
 ```
 $ npm install packagename –save;
@@ -13,8 +13,8 @@ $ npm install packagename –save;
 $ npm install packagename –save-dev
 ```
 
-- 可以看到分別有 dependencies 與 devDependencies 兩個節點，分別有裝入不同的套件。
-- –save 與 –save-dev 的兩個安裝指令
+可以看到分別有 dependencies 與 devDependencies 兩個節點，分別有裝入不同的套件。
+–save 與 –save-dev 的兩個安裝指令
 
 - 前者分別是指到 dependencies 與 devDependencies 下。
 - 後者則是只有寫入 devDependencies 下。所以執行 npm install 時，可以根據需求，使用不同的指令安裝。
