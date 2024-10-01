@@ -106,8 +106,9 @@ package.json 檔案中，我們可在 scripts 區塊加入各種指令。<br>
 
 注意是使用雙引號。<br> 
 
-<img src="https://imgur.com/fvF1YuH" alt="start:node index.js 圖片無法顯示" title="start: node index.js">
-<font size=1>[week 3 JavaScript：認識 Module & NPM 套件庫](https://hackmd.io/@Heidi-Liu/note-js102-npm)<font>
+<img src="https://imgur.com/fvF1YuH" alt="start:node index.js 圖片無法顯示" title="start: node index.js"><br>
+[week 3 JavaScript：認識 Module & NPM 套件庫](https://hackmd.io/@Heidi-Liu/note-js102-npm)<br>
+<br>
 
 ```
 npm run 'key'
