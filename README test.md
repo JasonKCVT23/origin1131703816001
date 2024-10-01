@@ -232,7 +232,9 @@ localhost 就是指自己正在使用的電腦的位址，你也可以用 127.0.
 
 ### 官網
 
-{% cq %}curl is used in command lines or scripts to transfer data.{% endcq %}
+> ***curl is used in command lines or scripts to transfer data.
+
+
 
 ### 說明
 
