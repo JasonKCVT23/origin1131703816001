@@ -219,6 +219,8 @@ localhost 就是指自己正在使用的電腦的位址，你也可以用 127.0.
 
 開啟→執行→輸入 cmd → 按 Enter ，出現「命令提示字元」視窗→輸入 ipconfig 按 Enter<br> 
 
+<blockquote class="imgur-embed-pub" lang="en" data-id="fvF1YuH" data-context="false" ><a href="//imgur.com/fvF1YuH"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 <img src="http://byfiles.storage.msn.com/y1pPIKjz1hHnuKW4orkHfbScRTcFGnksWmZsz9TPNmiCdRjxLAaMJXZRIc-E1M4kUhc?PARTNER=WRITER" alt="我目前的IP 圖片無法顯示" title="我目前的IP"><br>
 [什麼是 localhost ？](https://john543443.wordpress.com/2008/10/01/%E4%BB%80%E9%BA%BC%E6%98%AF-localhost-%EF%BC%9F/)<br>
 <br>
