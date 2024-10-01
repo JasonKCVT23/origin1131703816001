@@ -13,7 +13,7 @@ AWS 雲端基礎設施是以區域(Region)與可用區域(Available Zone)為中�
 而多個可用區域提(Multiple AZs)供則提供了我們在單一區域的的高可用性(high availability)，如下圖：<br> 
 
 <img src="https://blackie1019.github.io/2017/12/21/Amazon-Web-Service-30-days-3-Cloud-host-on-Global-Region-Available-Zone-and-Edge/Multiple_AZs.png" alt="REGION 圖片無法顯示" title="start: REGION">
-[30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹](https://ithelp.ithome.com.tw/m/articles/10192075)
+[30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹](https://ithelp.ithome.com.tw/m/articles/10192075)<br>
 <br>
 
 目前 AWS 在全球有 17 個地區運作(Region)，共有 46 個可用區域(AZ)，<br> 
