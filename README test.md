@@ -3,16 +3,14 @@
 AWS 雲端基礎設施是以區域(Region)與可用區域(Available Zone)為中心來建置的。區域(Region)是世界上有多個可用區域的實體位置。可用區域由一或多個分散的資料中心(Data Center)所組成，每一個AZ就是一個可獨立運作的資料中心都有備援電源、聯網和連線能力，且置放在不同的機構。<br> 
 
 <img src="https://blackie1019.github.io/2017/12/21/Amazon-Web-Service-30-days-3-Cloud-host-on-Global-Region-Available-Zone-and-Edge/Global_Infrastructure.png" alt="AWS Global Infrastructure - Region and Available Zone 圖片無法顯示" title="AWS Global Infrastructure - Region and Available Zone"><br>
-
-1. [30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹](https://ithelp.ithome.com.tw/m/articles/10192075)
-<br>
+[30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹](https://ithelp.ithome.com.tw/m/articles/10192075)<br>
 <br>
 
   
 每一個區域所提供的服務單價會略微不同，所以在區域上的選擇通常都是看我們的客戶是在哪邊依據能提供最快的服務或是挑選最便宜的區域來決定，<br> 
 而多個可用區域提(Multiple AZs)供則提供了我們在單一區域的的高可用性(high availability)，如下圖：<br> 
 
-<img src="https://blackie1019.github.io/2017/12/21/Amazon-Web-Service-30-days-3-Cloud-host-on-Global-Region-Available-Zone-and-Edge/Multiple_AZs.png" alt="REGION 圖片無法顯示" title="start: REGION">
+<img src="https://blackie1019.github.io/2017/12/21/Amazon-Web-Service-30-days-3-Cloud-host-on-Global-Region-Available-Zone-and-Edge/Multiple_AZs.png" alt="REGION 圖片無法顯示" title="start: REGION"><br>
 [30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹](https://ithelp.ithome.com.tw/m/articles/10192075)<br>
 <br>
 
@@ -117,8 +115,9 @@ npm run 'key'
 
 在終端機輸入 npm run start 即可透過 key 來運行該指令：<br> 
 
-<img src="https://imgur.com/K3XhyO3" alt="npm run start 圖片無法顯示" title="npm run start">
-[week 3 JavaScript：認識 Module & NPM 套件庫](https://hackmd.io/@Heidi-Liu/note-js102-npm)
+<img src="https://imgur.com/K3XhyO3" alt="npm run start 圖片無法顯示" title="npm run start"><br>
+[week 3 JavaScript：認識 Module & NPM 套件庫](https://hackmd.io/@Heidi-Liu/note-js102-npm)<br>
+<br>
 
 
 
@@ -210,8 +209,9 @@ localhost 就是指自己正在使用的電腦的位址，你也可以用 127.0.
 
 開啟→執行→輸入 cmd → 按 Enter ，出現「命令提示字元」視窗→輸入 ipconfig 按 Enter<br> 
 
-<img src="http://byfiles.storage.msn.com/y1pPIKjz1hHnuKW4orkHfbScRTcFGnksWmZsz9TPNmiCdRjxLAaMJXZRIc-E1M4kUhc?PARTNER=WRITER" alt="我目前的IP 圖片無法顯示" title="我目前的IP">
-[什麼是 localhost ？](https://john543443.wordpress.com/2008/10/01/%E4%BB%80%E9%BA%BC%E6%98%AF-localhost-%EF%BC%9F/)
+<img src="http://byfiles.storage.msn.com/y1pPIKjz1hHnuKW4orkHfbScRTcFGnksWmZsz9TPNmiCdRjxLAaMJXZRIc-E1M4kUhc?PARTNER=WRITER" alt="我目前的IP 圖片無法顯示" title="我目前的IP"><br>
+[什麼是 localhost ？](https://john543443.wordpress.com/2008/10/01/%E4%BB%80%E9%BA%BC%E6%98%AF-localhost-%EF%BC%9F/)<br>
+<br>
 
 在另一台電腦輸入你用 ipconfig 查詢得到的 IP ，就能連到你的網頁伺服器了。<br> 
 
@@ -272,8 +272,9 @@ server.listen(3000, function () {
 
 - 重新啟動 server.js，並用瀏覽器開看看
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4cNSFqew8k-AAEsqoimRLNs-UXcwe_GO5kBqvy8e5jXO0m-gIlI76dBFQYTMRgZfFd6vggG1j4c-bESrwptwfK0BE7epEl820HhAihJBY1ayIQ2cDyD-ryxhV4bjYoDvO1xsyvpgd/s1600/02.jpg" alt="Hello World from Node.js 圖片無法顯示" title="Hello World from Node.js">
-[使用 curl 工具進行簡單的 http 測試](https://blog.byparams.com/2016/10/curl-http.html)
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4cNSFqew8k-AAEsqoimRLNs-UXcwe_GO5kBqvy8e5jXO0m-gIlI76dBFQYTMRgZfFd6vggG1j4c-bESrwptwfK0BE7epEl820HhAihJBY1ayIQ2cDyD-ryxhV4bjYoDvO1xsyvpgd/s1600/02.jpg" alt="Hello World from Node.js 圖片無法顯示" title="Hello World from Node.js"><br>
+[使用 curl 工具進行簡單的 http 測試](https://blog.byparams.com/2016/10/curl-http.html)<br>
+<br>
 
 - 用 curl 試試看
 
@@ -307,8 +308,9 @@ var server = http.createServer(function (req, res) {
 
 - 測試 http://localhost:3000/greeting，得到 Hello my friend!<br> 
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPyUTyMb5w80_O4g9r0F5J72EYTq1vYQy87wUmIlioh6h2N6eGB_tAU6Wa00MKf__JAyNKmO3mxyJrWBU2uo3rfzFS_ay7XMqWDirZ8Y_NASoeIgBd5gDNZti5Lq6emQs7TPt0PtUL/s1600/03.jpg" alt="Hello my friend! 圖片無法顯示" title="Hello my friend!">
-[使用 curl 工具進行簡單的 http 測試](https://blog.byparams.com/2016/10/curl-http.html)
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPyUTyMb5w80_O4g9r0F5J72EYTq1vYQy87wUmIlioh6h2N6eGB_tAU6Wa00MKf__JAyNKmO3mxyJrWBU2uo3rfzFS_ay7XMqWDirZ8Y_NASoeIgBd5gDNZti5Lq6emQs7TPt0PtUL/s1600/03.jpg" alt="Hello my friend! 圖片無法顯示" title="Hello my friend!"><br>
+[使用 curl 工具進行簡單的 http 測試](https://blog.byparams.com/2016/10/curl-http.html)<br>
+<br>
 
 - 用 curl
 
