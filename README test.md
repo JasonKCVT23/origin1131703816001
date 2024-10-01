@@ -6,6 +6,7 @@ AWS 雲端基礎設施是以區域(Region)與可用區域(Available Zone)為中�
 [30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹][1]
 [1]:<https://ithelp.ithome.com.tw/m/articles/10192075>
 <br>
+<br>
 
   
 每一個區域所提供的服務單價會略微不同，所以在區域上的選擇通常都是看我們的客戶是在哪邊依據能提供最快的服務或是挑選最便宜的區域來決定，<br> 
