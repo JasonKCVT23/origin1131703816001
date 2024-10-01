@@ -9,7 +9,6 @@ AWS 雲端基礎設施是以區域(Region)與可用區域(Available Zone)為中�
 
   
 每一個區域所提供的服務單價會略微不同，所以在區域上的選擇通常都是看我們的客戶是在哪邊依據能提供最快的服務或是挑選最便宜的區域來決定，<br> 
-
 而多個可用區域提(Multiple AZs)供則提供了我們在單一區域的的高可用性(high availability)，如下圖：<br> 
 
 <img src="https://blackie1019.github.io/2017/12/21/Amazon-Web-Service-30-days-3-Cloud-host-on-Global-Region-Available-Zone-and-Edge/Multiple_AZs.png" alt="REGION 圖片無法顯示" title="start: REGION">
