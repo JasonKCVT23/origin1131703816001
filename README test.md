@@ -178,10 +178,15 @@ console.log(add(2, 3)); // 輸出: 5
 ### 兩者差異之處
 
 ESM 和 CJS 在語法和用法上有一些不同之處，主要區別如下：<br> 
+<br>
 語法：ESM 使用 import 和 export，而 CJS 使用 require 和 module.exports 或 exports。<br> 
+<br>
 加載時間：ESM 是靜態加載，即在編譯時就可以確定模塊的依賴關係；而 CJS 是動態加載，即在運行時根據需要動態加載模塊。<br> 
+<br>
 運行環境：ESM 可以在現代瀏覽器中使用，但需要在 <script> 標籤上使用 type="module" 屬性；而 CJS 主要用於 Node.js 環境。<br> 
+<br>
 預設導出：ESM 支援預設導出，可以使用 export default，而 CJS 沒有內建的預設導出機制。<br> 
+<br>
 需要注意的是，ESM 和 CJS 是不相容的模塊系統，即不能直接在 ES6 模塊和 CommonJS 模塊之間進行導入和導出。<br> 
 這也就是為什麼衍生了許多的轉換套件， 例如 Babel 或 webpack…。<br> 
 
@@ -190,7 +195,8 @@ ESM 和 CJS 在語法和用法上有一些不同之處，主要區別如下：<b
 - 目前主流的模塊系統是 ESM（ES Modules）。<br> 
 ESM 是 JavaScript 的官方模塊系統，自 ECMAScript 6（ES6）開始引入並成為語言的一部分。<br> 
 它在現代瀏覽器中得到廣泛支援，同時也可以在 Node.js 環境中使用（從 Node.js 12 版本開始原生支援）。<br> 
-- 相較於CJS之下有以下的優勢:
+- 相較於CJS之下有以下的優勢:<br>
+<br>
 1. 靜態加載：ESM 在編譯時就可以確定模塊的依賴關係，這使得瀏覽器可以更有效地進行模塊的加載和緩存，提高應用程序的性能。
 2. 非阻塞加載：ESM 的加載是非阻塞的，這意味著當瀏覽器遇到 <script type="module"> 標籤時，它可以繼續解析後面的 HTML，而不需要等待模塊加載完成。
 3. 預設導出：ESM 支援預設導出，可以使用 export default 導出模塊的預設內容，這使得導入模塊時可以更簡潔。
@@ -204,9 +210,11 @@ ESM 是 JavaScript 的官方模塊系統，自 ECMAScript 6（ES6）開始引入
 
 localhost 就是指自己正在使用的電腦的位址，你也可以用 127.0.0.1 來代替。不管是 localhost 或是 127.0.0.1 ，指的都是自己的電腦。所以當你在瀏覽器的網址列輸入 http://localhost/ 或是 http://127.0.0.1 ，都會連到自己的電腦的網頁伺服器(如果有架設的話)。<br> 
 
-- 那如果別人的電腦要連到自己的電腦的網頁伺服器呢？
+- 那如果別人的電腦要連到自己的電腦的網頁伺服器呢？<br>
+<br>
 
 首先你要知道自己在網路上的IP位址，在 WindowsXP/Windows2000/Windows2003 的環境下可以這麼做：<br> 
+<br>
 
 開啟→執行→輸入 cmd → 按 Enter ，出現「命令提示字元」視窗→輸入 ipconfig 按 Enter<br> 
 
@@ -215,6 +223,7 @@ localhost 就是指自己正在使用的電腦的位址，你也可以用 127.0.
 <br>
 
 在另一台電腦輸入你用 ipconfig 查詢得到的 IP ，就能連到你的網頁伺服器了。<br> 
+<br>
 
 但是，如果你的 IP 是10.0.0.0 – 10.255.255.255、172.16.0.0 – 172.31.255.255、192.168.0.0 – 192.168.255.255 這樣的 IP 稱為私用位址(private address)，只有在同一區網內的電腦才能連得到。也就是說，如果你在學校得到的 IP 是私用位址，那麼你在家裡打這樣的位址是連不到的喔！<br> 
 
@@ -222,7 +231,7 @@ localhost 就是指自己正在使用的電腦的位址，你也可以用 127.0.
 
 ### 官網
 
-- curl is used in command lines or scripts to transfer data.
+{% cq %}curl is used in command lines or scripts to transfer data.{% endcq %}
 
 ### 說明
 
@@ -287,6 +296,7 @@ $ curl http://localhost:3000
 ### 路由測試
 
 這裡的路由測試很簡單，如果你想要建立完整的路由或 REST endpoints，建議使用 express 或 hapi 這一類的框架來協助你。因為只是要測一下 curl，我就不裝 express 啦！<br> 
+<br>
 
 兩個路由，一個是網站的根 '/'，另一個是 '/greeting'<br> 
 
@@ -356,7 +366,8 @@ $ curl -O http://xxx.xxx.xxx:port/path/to/filename
 
 2. node_modules 裡面除了剛剛安裝的 selenium-webdriver，還安裝了許多其他的套件
 
-3. 多了一個檔案 package-lock.json
+3. 多了一個檔案 package-lock.json<br>
+<br>
 
 package-lock.json是在npm install時後生成一份文件，用以紀錄當前狀態下實際安裝的各個npm package的具體來源和版本號。<br> 
 
