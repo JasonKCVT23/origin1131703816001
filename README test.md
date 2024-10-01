@@ -4,7 +4,7 @@ AWS 雲端基礎設施是以區域(Region)與可用區域(Available Zone)為中�
 
 <img src="https://blackie1019.github.io/2017/12/21/Amazon-Web-Service-30-days-3-Cloud-host-on-Global-Region-Available-Zone-and-Edge/Global_Infrastructure.png" alt="AWS Global Infrastructure - Region and Available Zone 圖片無法顯示" title="AWS Global Infrastructure - Region and Available Zone">
 [30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹][1]<br>
-[1]: (https://ithelp.ithome.com.tw/m/articles/10192075)
+[1]: <https://ithelp.ithome.com.tw/m/articles/10192075>
 <br>
 <br>
 
