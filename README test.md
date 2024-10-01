@@ -3,8 +3,8 @@
 AWS 雲端基礎設施是以區域(Region)與可用區域(Available Zone)為中心來建置的。區域(Region)是世界上有多個可用區域的實體位置。可用區域由一或多個分散的資料中心(Data Center)所組成，每一個AZ就是一個可獨立運作的資料中心都有備援電源、聯網和連線能力，且置放在不同的機構。<br> 
 
 <img src="https://blackie1019.github.io/2017/12/21/Amazon-Web-Service-30-days-3-Cloud-host-on-Global-Region-Available-Zone-and-Edge/Global_Infrastructure.png" alt="AWS Global Infrastructure - Region and Available Zone 圖片無法顯示" title="AWS Global Infrastructure - Region and Available Zone">
-<font size=1>[30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹](https://ithelp.ithome.com.tw/m/articles/10192075)</font>
-
+<small>[30天鐵人賽介紹 AWS 雲端世界 - 3: 雲端服務上的Global, Region, Available Zone 與Edge 介紹](https://ithelp.ithome.com.tw/m/articles/10192075)<small>
+  
 每一個區域所提供的服務單價會略微不同，所以在區域上的選擇通常都是看我們的客戶是在哪邊依據能提供最快的服務或是挑選最便宜的區域來決定，<br> 
 
 而多個可用區域提(Multiple AZs)供則提供了我們在單一區域的的高可用性(high availability)，如下圖：<br> 
