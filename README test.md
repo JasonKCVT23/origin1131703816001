@@ -179,13 +179,10 @@ console.log(add(2, 3)); // 輸出: 5
 
 ESM 和 CJS 在語法和用法上有一些不同之處，主要區別如下：<br> 
 <br>
-語法：ESM 使用 import 和 export，而 CJS 使用 require 和 module.exports 或 exports。<br> 
-<br>
-加載時間：ESM 是靜態加載，即在編譯時就可以確定模塊的依賴關係；而 CJS 是動態加載，即在運行時根據需要動態加載模塊。<br> 
-<br>
-運行環境：ESM 可以在現代瀏覽器中使用，但需要在 <script> 標籤上使用 type="module" 屬性；而 CJS 主要用於 Node.js 環境。<br> 
-<br>
-預設導出：ESM 支援預設導出，可以使用 export default，而 CJS 沒有內建的預設導出機制。<br> 
+- 語法：ESM 使用 import 和 export，而 CJS 使用 require 和 module.exports 或 exports。<br> 
+- 加載時間：ESM 是靜態加載，即在編譯時就可以確定模塊的依賴關係；而 CJS 是動態加載，即在運行時根據需要動態加載模塊。<br> 
+- 運行環境：ESM 可以在現代瀏覽器中使用，但需要在 <script> 標籤上使用 type="module" 屬性；而 CJS 主要用於 Node.js 環境。<br> 
+- 預設導出：ESM 支援預設導出，可以使用 export default，而 CJS 沒有內建的預設導出機制。<br> 
 <br>
 需要注意的是，ESM 和 CJS 是不相容的模塊系統，即不能直接在 ES6 模塊和 CommonJS 模塊之間進行導入和導出。<br> 
 這也就是為什麼衍生了許多的轉換套件， 例如 Babel 或 webpack…。<br> 
